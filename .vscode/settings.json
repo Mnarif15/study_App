@@ -1,4 +1,13 @@
 {
-  "cSpell.words": ["firestore", "Getx"],
+  "cSpell.words": [
+    "Approutes",
+    "ARGB",
+    "cupertino",
+    "firestore",
+    "Getx",
+    "leaderboard",
+    "Minits",
+    "throphy"
+  ],
   "java.configuration.updateBuildConfiguration": "interactive"
 }

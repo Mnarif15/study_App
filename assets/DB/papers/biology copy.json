@@ -1,0 +1,125 @@
+{
+  "id": "ppr005",
+  "title": "Object oriented",
+  "image_url": "",
+  "description": "Medium level OOP Multiple Choice Questions (MCQ) to practice object-oriented programming concepts",
+  "time_seconds": 900,
+  "difficulty": 2.0,
+  "questions": [
+    {
+      "id": "ppr005q001",
+      "question": "Which of the following is true about a constructor in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "It must have a return type."
+        },
+        {
+          "identifier": "B",
+          "Answer": "It must have the same name as the class."
+        },
+        {
+          "identifier": "C",
+          "Answer": "It can have a different name than the class."
+        },
+        {
+          "identifier": "D",
+          "Answer": "It can be called explicitly using a return keyword."
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr005q002",
+      "question": "Which of the following is a way to achieve polymorphism in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Inheritance"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Overloading methods"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Implementing interfaces"
+        },
+        {
+          "identifier": "D",
+          "Answer": "All of the above"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr005q003",
+      "question": "What is the primary purpose of the 'super' keyword in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "To create a new object"
+        },
+        {
+          "identifier": "B",
+          "Answer": "To call the superclass constructor"
+        },
+        {
+          "identifier": "C",
+          "Answer": "To access the superclass methods"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Both B and C"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr005q004",
+      "question": "Which of the following is not a type of inheritance in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Single Inheritance"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Multiple Inheritance"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Multilevel Inheritance"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Hierarchical Inheritance"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr005q005",
+      "question": "What is encapsulation in OOP?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Hiding the internal state and requiring all interaction to be performed through an object's methods"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Deriving new classes from existing ones"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Combining multiple methods into a single class"
+        },
+        {
+          "identifier": "D",
+          "Answer": "The ability to use the same method name in different classes"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

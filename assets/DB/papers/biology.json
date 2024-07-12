@@ -1,0 +1,125 @@
+{
+  "id": "ppr004",
+  "title": "Java",
+  "image_url": "",
+  "description": "Basic Java Syntax Multiple Choice Questions (MCQ) to practice Java programming concepts",
+  "time_seconds": 900,
+  "difficulty": 1.0,
+  "questions": [
+    {
+      "id": "ppr004q001",
+      "question": "Which of the following is the correct syntax to print a message in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "System.out.print('Hello World');"
+        },
+        {
+          "identifier": "B",
+          "Answer": "System.out.println('Hello World');"
+        },
+        {
+          "identifier": "C",
+          "Answer": "print('Hello World');"
+        },
+        {
+          "identifier": "D",
+          "Answer": "println('Hello World');"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr004q002",
+      "question": "Which of the following data types is used to create a variable that should store text?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "String"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Txt"
+        },
+        {
+          "identifier": "C",
+          "Answer": "myString"
+        },
+        {
+          "identifier": "D",
+          "Answer": "string"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr004q003",
+      "question": "Which keyword is used to create a class in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "className"
+        },
+        {
+          "identifier": "B",
+          "Answer": "class"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Class"
+        },
+        {
+          "identifier": "D",
+          "Answer": "define"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr004q004",
+      "question": "How do you create a single-line comment in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "// This is a comment"
+        },
+        {
+          "identifier": "B",
+          "Answer": "/* This is a comment */"
+        },
+        {
+          "identifier": "C",
+          "Answer": "# This is a comment"
+        },
+        {
+          "identifier": "D",
+          "Answer": "// This is a comment //"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr004q005",
+      "question": "Which of the following is used to declare a variable in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "variableName = value;"
+        },
+        {
+          "identifier": "B",
+          "Answer": "declare variableName;"
+        },
+        {
+          "identifier": "C",
+          "Answer": "type variableName = value;"
+        },
+        {
+          "identifier": "D",
+          "Answer": "def variableName = value;"
+        }
+      ],
+      "correct_answer": "C"
+    }
+  ]
+}

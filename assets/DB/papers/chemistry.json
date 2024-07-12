@@ -1,108 +1,125 @@
 {
-    "id": "ppr002",
-    "title": "Chemistry",
-    "image_url": "",
-    "Description": "Basic Chemistry Multiple Choice Questions (MCQ) to practice basic Chemistry quiz answers",
-    "time_seconds": 900,
-    "questions": [
+  "id": "ppr002",
+  "title": "Java",
+  "image_url": "",
+  "description": "Basic Java Syntax Multiple Choice Questions (MCQ) to practice Java programming concepts",
+  "time_seconds": 900,
+  "difficulty": 1.0,
+  "questions": [
+    {
+      "id": "ppr002q001",
+      "question": "Which of the following is the correct way to declare an integer variable in Java?",
+      "answers": [
         {
-            "id": "ppr002q001",
-            "question": "What is the chemical symbol for carbon?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "C"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "Ca"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "Cn"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "Crn"
-                }
-            ],
-            "correct_answer": "A"
+          "identifier": "A",
+          "Answer": "int number = 10;"
         },
         {
-            "id": "ppr002q002",
-            "question": "Molecules bonded together make up atoms.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "True"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "False"
-                }
-            ],
-            "correct_answer": "B"
+          "identifier": "B",
+          "Answer": "integer number = 10;"
         },
         {
-            "id": "ppr002q003",
-            "question": "When we combined vinegar and baking soda and created carbon dioxide what was the product?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "vinegar"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "carbon dioxide and baking soda"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "carbon dioxide"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "vinegar and baking soda"
-                }
-            ],
-            "correct_answer": "C"
+          "identifier": "C",
+          "Answer": "num number = 10;"
         },
         {
-            "id": "ppr002q004",
-            "question": "which of the following is a unit of eletric current:",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "ohm"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "volt"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "watt"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "amp"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "ppr002q005",
-            "question": "In a chemical reaction or change a new substance is not created.?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "true"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "false"
-                }
-            ],
-            "correct_answer": "B"
+          "identifier": "D",
+          "Answer": "int: number = 10;"
         }
-    ]
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr002q002",
+      "question": "How do you start the main method in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "public void main(String[] args)"
+        },
+        {
+          "identifier": "B",
+          "Answer": "public static void main(String[] args)"
+        },
+        {
+          "identifier": "C",
+          "Answer": "void main(String[] args)"
+        },
+        {
+          "identifier": "D",
+          "Answer": "static void main(String[] args)"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr002q003",
+      "question": "Which of the following is the correct way to create a new object in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "ClassName object = new ClassName();"
+        },
+        {
+          "identifier": "B",
+          "Answer": "ClassName object = new ClassName;"
+        },
+        {
+          "identifier": "C",
+          "Answer": "ClassName object = ClassName();"
+        },
+        {
+          "identifier": "D",
+          "Answer": "ClassName object = new();"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr002q004",
+      "question": "How do you write a multi-line comment in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "/* This is a \n multi-line comment */"
+        },
+        {
+          "identifier": "B",
+          "Answer": "// This is a \n multi-line comment"
+        },
+        {
+          "identifier": "C",
+          "Answer": "# This is a \n multi-line comment"
+        },
+        {
+          "identifier": "D",
+          "Answer": "/* This is a // multi-line comment */"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr002q005",
+      "question": "Which of the following statements correctly declares an array in Java?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "int[] arr = new int[5];"
+        },
+        {
+          "identifier": "B",
+          "Answer": "int arr = new int[5];"
+        },
+        {
+          "identifier": "C",
+          "Answer": "int[] arr = int[5];"
+        },
+        {
+          "identifier": "D",
+          "Answer": "int arr = new int[];"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
 }

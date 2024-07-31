@@ -194,6 +194,10 @@ class QuestionsController extends GetxController {
         (weightAttempts * normAttempts) +
         (weightRemainingTime * normRemainingTime);
 
+    if(normAccuracy==0.0){
+      finalScore=0.0;
+    }
+
     // Multiply by 100 to scale up the score and round it
     return (finalScore * 100).round();
   }

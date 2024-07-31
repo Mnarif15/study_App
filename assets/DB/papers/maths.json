@@ -1,6 +1,6 @@
 {
   "id": "ppr003",
-  "title": "object oriented",
+  "title": "Object Oriented",
   "image_url": "",
   "description": "Basic OOP Multiple Choice Questions (MCQ) to practice basic OOP concepts",
   "time_seconds": 900,
@@ -12,11 +12,11 @@
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Class"
+          "Answer": "Method"
         },
         {
           "identifier": "B",
-          "Answer": "Method"
+          "Answer": "Class"
         },
         {
           "identifier": "C",
@@ -35,11 +35,11 @@
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Class"
+          "Answer": "Object"
         },
         {
           "identifier": "B",
-          "Answer": "Object"
+          "Answer": "Class"
         },
         {
           "identifier": "C",
@@ -50,50 +50,50 @@
           "Answer": "Method"
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": "ppr003q003",
-      "question": "Which OOP principle involves using a single interface to represent different underlying forms (data types)?",
+      "question": "Which keyword is used to define a class in most programming languages?",
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Encapsulation"
+          "Answer": "define"
         },
         {
           "identifier": "B",
-          "Answer": "Inheritance"
+          "Answer": "class"
         },
         {
           "identifier": "C",
-          "Answer": "Polymorphism"
+          "Answer": "struct"
         },
         {
           "identifier": "D",
-          "Answer": "Abstraction"
+          "Answer": "new"
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": "ppr003q004",
-      "question": "Which of the following is a way to achieve code reuse in OOP?",
+      "question": "Which of the following is a special method used to initialize objects?",
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Encapsulation"
+          "Answer": "Destructor"
         },
         {
           "identifier": "B",
-          "Answer": "Inheritance"
+          "Answer": "Constructor"
         },
         {
           "identifier": "C",
-          "Answer": "Polymorphism"
+          "Answer": "Main method"
         },
         {
           "identifier": "D",
-          "Answer": "Abstraction"
+          "Answer": "Accessor"
         }
       ],
       "correct_answer": "B"
@@ -108,18 +108,18 @@
         },
         {
           "identifier": "B",
-          "Answer": "Function"
-        },
-        {
-          "identifier": "C",
           "Answer": "Object"
         },
         {
-          "identifier": "D",
+          "identifier": "C",
           "Answer": "Variable"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Function"
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     }
   ]
 }

@@ -1,19 +1,41 @@
 {
   "id": "ppr001",
-  "title": "object oriented",
+  "title": "Object Oriented",
   "image_url": "",
-  "description": "Basic OOP Multiple Choice Questions (MCQ) to practice basic OOP concepts",
+  "description": "MCQs to test your understanding of core Object-Oriented Programming (OOP) concepts.",
   "time_seconds": 900,
   "difficulty": 1.0,
-
   "questions": [
     {
       "id": "ppr001q001",
-      "question": "Which one of the following is a feature of OOP?",
+      "question": "Which core concept of OOP involves bundling data and methods that operate on that data into a single unit?",
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Procedural Programming"
+          "Answer": "Abstraction"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Polymorphism"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Encapsulation"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Inheritance"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr001q002",
+      "question": "What concept allows one class to inherit the properties and methods of another class in OOP?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Polymorphism"
         },
         {
           "identifier": "B",
@@ -21,41 +43,18 @@
         },
         {
           "identifier": "C",
-          "Answer": "Compilation"
+          "Answer": "Composition"
         },
         {
           "identifier": "D",
-          "Answer": "Linking"
+          "Answer": "Encapsulation"
         }
       ],
       "correct_answer": "B"
     },
     {
-      "id": "ppr001q002",
-      "question": "Which of the following represents a class?",
-      "answers": [
-        {
-          "identifier": "A",
-          "Answer": "Object"
-        },
-        {
-          "identifier": "B",
-          "Answer": "Method"
-        },
-        {
-          "identifier": "C",
-          "Answer": "Blueprint"
-        },
-        {
-          "identifier": "D",
-          "Answer": "Instance"
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
       "id": "ppr001q003",
-      "question": "Which principle involves hiding the internal state of an object?",
+      "question": "In OOP, which principle permits objects of different classes to be treated as instances of a common superclass?",
       "answers": [
         {
           "identifier": "A",
@@ -74,53 +73,53 @@
           "Answer": "Abstraction"
         }
       ],
-      "correct_answer": "B"
-    },
-    {
-      "id": "ppr001q004",
-      "question": "Which of the following is a unit of code reuse in OOP?",
-      "answers": [
-        {
-          "identifier": "A",
-          "Answer": "Variable"
-        },
-        {
-          "identifier": "B",
-          "Answer": "Function"
-        },
-        {
-          "identifier": "C",
-          "Answer": "Class"
-        },
-        {
-          "identifier": "D",
-          "Answer": "Object"
-        }
-      ],
       "correct_answer": "C"
     },
     {
-      "id": "ppr001q005",
-      "question": "An object is an instance of a ...................?",
+      "id": "ppr001q004",
+      "question": "Which OOP concept focuses on hiding the complex implementation details while exposing only the necessary features of an object?",
       "answers": [
         {
           "identifier": "A",
-          "Answer": "Class"
+          "Answer": "Composition"
         },
         {
           "identifier": "B",
-          "Answer": "Method"
+          "Answer": "Inheritance"
         },
         {
           "identifier": "C",
-          "Answer": "Function"
+          "Answer": "Polymorphism"
         },
         {
           "identifier": "D",
-          "Answer": "Variable"
+          "Answer": "Abstraction"
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr001q005",
+      "question": "Which OOP concept involves a class containing objects of other classes, enabling a 'has-a' relationship?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Inheritance"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Polymorphism"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Encapsulation"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Composition"
+        }
+      ],
+      "correct_answer": "D"
     }
   ]
 }

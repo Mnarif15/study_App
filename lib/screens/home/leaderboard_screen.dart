@@ -123,7 +123,7 @@ class LeaderboardPage extends StatelessWidget {
                                     testSnapshot.data!.docs.isEmpty) {
                                   print("No data available in test snapshot.");
                                   return Center(
-                                      child: Text("No test data available."));
+                                      child: Text("No test data available"));
                                 }
 
                                 final tests = testSnapshot.data!.docs;
